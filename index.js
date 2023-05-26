@@ -2,9 +2,10 @@ function textscrooling(){
     if(document.body.scrollTop>100 || document.documentElement.scrollTop>100){
         document.getElementById("text-zoom").style.fontSize = "200px";
         document.body.style.color = "red";
+        document.body.style.backgroundColor = "aqua";
     }else{
         document.getElementById("text-zoom").style.fontSize = "100px";
-        document.body.style.backgroundColor = "aqua";
+        document.body.style.backgroundColor = "white";
     }
 }
 window.onscroll = function(){
